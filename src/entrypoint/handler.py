@@ -1,14 +1,10 @@
-import os
-
 from fastapi import (
     FastAPI,
-    Depends,
     HTTPException,
 )
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import (
     JSONResponse,
-    PlainTextResponse
 )
 from mangum import Mangum
 
