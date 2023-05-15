@@ -1,0 +1,23 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv
+src/.env
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+infrastructure/cdk.out/*
+
+# IDE's
+.vscode/*
+
+# venv
+.env-lambda-fast-api
+.env-lambda
+.env
+.env-cdk
+.venv-infra
+.venv-lambda
+
